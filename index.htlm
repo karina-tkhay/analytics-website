@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Analytics Website</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-30BT2HJ6G5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-30BT2HJ6G5');
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 750px; margin: 70px auto; padding: 20px; line-height: 1.7; color: #263238; }
+    h1 { color: #2456a6; }
+    a { color: #2456a6; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Website!</h1>
+  <p>This website was created for my Google Analytics assignment.</p>
+  <h2>About this project</h2>
+  <p>I am learning how Google Analytics 4 measures website traffic and user interactions.</p>
+  <h2>My goals</h2>
+  <p>Explore website analytics, test page views, and understand user behavior.</p>
+  <a href="https://developers.google.com/analytics">Learn more about Google Analytics</a>
+</body>
+</html>
